@@ -10,20 +10,21 @@ const questions = [
       'Functions',
     ],
   ),
-  QuizQuestion('How are Flutter UIs built?', [
-    'By combining widgets in code',
-    'By combining widgets in a visual editor',
-    'By defining widgets in config files',
-    'By using XCode for iOS and Android Studio for Android',
-  ]),
   QuizQuestion(
-    'What\'s the purpose of a StatefulWidget?',
+    'How are Flutter UIs built?',
     [
-      'Update UI as data changes',
-      'Update data as UI changes',
-      'Ignore data changes',
-      'Render UI that does not depend on data',
+      'By combining widgets in code',
+      'By combining widgets in a visual editor',
+      'By defining widgets in config files',
+      'By using XCode for iOS and Android Studio for Android',
     ],
+  ),
+  QuizQuestion('What\'s the purpose of a StatefulWidget?', [
+    'Update UI as data changes',
+    'Update data as UI changes',
+    'Ignore data changes',
+    'Render UI that does not depend on data',
+  ],
   ),
   QuizQuestion(
     'Which widget should you try to use more often: StatelessWidget or StatefulWidget?',
@@ -49,8 +50,7 @@ const questions = [
       'By calling setState()',
       'By calling updateData()',
       'By calling updateUI()',
-      'By calling updateState()',],
+      'By calling updateState()',
+    ],
   ),
-  
 ];
-
