@@ -12,11 +12,12 @@ class QuestionScreen extends StatefulWidget {
 
 class _QuestionScreenState extends State<QuestionScreen> {
   var currentQuestionIndex = 0;
+  
   void answerQuestion() {
     setState(() {
-      currentQuestionIndex++;
+      currentQuestionIndex+1;
       
-    });
+      });
   }
 
   @override
